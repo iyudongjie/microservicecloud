@@ -10,7 +10,7 @@ spring:
   application:
     name: microservicecloud-config-dept-client
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://localhost:3306/cloudDB01?useUnicode=true&characterEncoding=utf-8
     username: root

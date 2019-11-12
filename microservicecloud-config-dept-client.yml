@@ -28,15 +28,15 @@ mybatis:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
-    defaultZone: http://eureka7001.com:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
   instance:
     instance-id: dept-8001.com
     prefer-ip-address: true
 info:
-app.name: atguigu-microservicecloud-springcloudconfig01
-company.name: www.atguigu.com
-build.artifactId: $project.artifactId$
-build.version: $project.version$
+  app.name: atguigu-microservicecloud-springcloudconfig01
+  company.name: www.atguigu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 ---
 server:
   port: 8001
@@ -63,12 +63,12 @@ mybatis:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
-    defaultZone: http://eureka7001.com:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
   instance:
     instance-id: dept-8001.com
     prefer-ip-address: true
 info:
-app.name: atguigu-microservicecloud-springcloudconfig02
-company.name: www.atguigu.com
-build.artifactId: $project.artifactId$
-build.version: $project.version$
+  app.name: atguigu-microservicecloud-springcloudconfig02
+  company.name: www.atguigu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
